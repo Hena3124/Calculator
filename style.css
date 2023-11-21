@@ -1,0 +1,55 @@
+body{
+    background: black;
+
+    
+}
+#mainbody{
+    margin-left: 40%;
+    margin-top: 12%;
+    background: linear-gradient(#00ffe4, #1dc5dd, #27b2da,#7e06c2, #171616);
+    width: 230px;
+    height: 300px;
+    border: solid 6px;
+    border-radius: 10px;
+    border-color: blueviolet;
+}
+#screen{
+    width: 85%;
+    height: 40px;
+    margin-left: 18px;
+    margin-top: 13px;
+    border-width: 5px;
+    border-left: 18px;
+    border-color: orchid;
+    border-radius: 8px;
+    
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    pointer-events: none;
+    
+
+}
+
+.but{
+    width: 200px;
+    height: 300px;
+    margin-left: 1px;
+
+}
+
+button{
+    width: 32px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 15px;
+    background: linear-gradient(#b51ddd,#27b2da, #7e06c2, #171616);
+    border: solid orchid;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+button:hover{
+    cursor:pointer;
+    background: linear-gradient(#b51ddd, #7e06c2,#171616);
+}
